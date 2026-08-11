@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pista 3</title>
     <style>
-        body { font-family: 'Arial', sans-serif; background-color: #121212; color: #fff; text-align: center; padding: 20px; }
-        .card { background: #1e1e1e; border-radius: 15px; padding: 25px; margin-top: 20px; }
-        h1 { color: #2ed573; }
-        .dica { background: #eccc68; color: #000; padding: 15px; border-radius: 10px; font-weight: bold; margin-top: 20px; font-size: 1.1em; }
-        button { background: #2ed573; color: white; border: none; padding: 12px 20px; border-radius: 20px; margin-bottom: 15px; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #fff0f3; color: #4a4a4a; text-align: center; padding: 20px; }
+        .card { background: #ffffff; border-radius: 20px; padding: 30px; margin: 20px auto; max-width: 500px; box-shadow: 0 10px 25px rgba(255, 182, 193, 0.4); border: 1px solid #ffccd5; }
+        h1 { color: #ff4d6d; font-size: 1.6em; }
+        .dica { background: #ffe5ec; color: #800f2f; padding: 20px; border-radius: 15px; font-weight: 600; margin-top: 20px; font-size: 1.1em; line-height: 1.5; border: 1px dashed #ffb3c1; }
+        .btn-play { background: #ff758f; color: white; border: none; padding: 10px 20px; border-radius: 20px; margin-bottom: 15px; font-weight: bold; cursor: pointer; }
     </style>
 </head>
 <body>
@@ -18,12 +18,12 @@
     </audio>
 
     <div class="card">
-        <button onclick="document.getElementById('musica').play()">🎵 Ligar Música</button>
+        <button class="btn-play" onclick="document.getElementById('musica').play()">🎵 Ligar Música</button>
         <h1>🛋️ Direto do Sofá!</h1>
         
         <div class="dica">
             🧩 <strong>PISTA 3:</strong><br><br>
-            "Atenção: essa pista teve um 'pequeno atraso no processamento'! Para encontrar a próxima ordem da missão, dê uma olhada ali perto da impressora ou do computador para ver se o papel finalmente saiu..."
+            "Atenção: essa pista teve um 'pequeno atraso no processamento'! Para encontrar a próxima ordem da missão, dê uma olhada ali perto da impressora ou do computador..."
         </div>
     </div>
 </body>
