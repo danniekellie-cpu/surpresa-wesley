@@ -3,19 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pista</title>
+    <title>O Gran Finale!</title>
     <style>
         body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #fff0f3; color: #4a4a4a; text-align: center; padding: 20px; }
-        .card { background: #ffffff; border-radius: 20px; padding: 30px; margin: 20px auto; max-width: 500px; box-shadow: 0 10px 25px rgba(255, 182, 193, 0.4); border: 1px solid #ffccd5; }
-        .dica { background: #ffe5ec; color: #800f2f; padding: 20px; border-radius: 15px; font-weight: 600; margin-top: 20px; font-size: 1.1em; line-height: 1.5; border: 1px dashed #ffb3c1; }
+        .card { background: #ffffff; border-radius: 20px; padding: 30px; margin: 20px auto; max-width: 500px; box-shadow: 0 10px 25px rgba(255, 182, 193, 0.4); border: 2px solid #ff758f; }
+        h1 { color: #ff4d6d; font-size: 1.8em; margin-bottom: 15px; }
+        .btn-play { background: #ff4d6d; color: white; border: none; padding: 14px 28px; border-radius: 25px; font-weight: bold; cursor: pointer; margin-bottom: 20px; font-size: 1.1em; box-shadow: 0 4px 10px rgba(255, 77, 109, 0.3); }
+        .mensagem { background: #ffe5ec; color: #800f2f; padding: 20px; border-radius: 15px; font-weight: 600; font-size: 1.15em; line-height: 1.6; border: 1px dashed #ffb3c1; margin-bottom: 20px; text-align: center; }
+        .midia { width: 100%; border-radius: 15px; border: 2px solid #ffccd5; margin-top: 10px; display: block; }
     </style>
 </head>
 <body>
+    <audio id="musica" loop>
+        <source src="musica.mp3" type="audio/mpeg">
+    </audio>
+
     <div class="card">
-        <div class="dica">
-            🧩 <strong>PISTA:</strong><br><br>
-            "Vá olhar dentro do guarda-roupa!"
+        <button class="btn-play" onclick="document.getElementById('musica').play()">🎵 Clique aqui para tocar nossa música</button>
+
+        <h1>🎁 SEU VERDADEIRO TESOURO!</h1>
+
+        <div class="mensagem">
+            😜 Ops... Achar que estava fácil assim dentro do guarda-roupa? Ainda não!<br><br>
+            O meu maior presente é ter você de volta, mas preparei uma surpresa especial de reencontro.<br><br>
+            ✨ <strong>Olhe bem no alto do guarda-roupa e pegue o seu tesouro!</strong> ✨
         </div>
+
+        <video src="bumerangue.mp4" autoplay loop muted playsinline class="midia"></video>
     </div>
 </body>
 </html>
