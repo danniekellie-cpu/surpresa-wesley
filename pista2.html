@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pista 2</title>
+    <style>
+        body { font-family: 'Arial', sans-serif; background-color: #121212; color: #fff; text-align: center; padding: 20px; }
+        .card { background: #1e1e1e; border-radius: 15px; padding: 25px; margin-top: 20px; }
+        h1 { color: #ffa502; }
+        .dica { background: #70a1ff; color: #000; padding: 15px; border-radius: 10px; font-weight: bold; margin-top: 20px; font-size: 1.1em; }
+        button { background: #ffa502; color: white; border: none; padding: 12px 20px; border-radius: 20px; margin-bottom: 15px; }
+    </style>
+</head>
+<body>
+    <audio id="musica" loop autoplay>
+        <source src="musica.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="card">
+        <button onclick="document.getElementById('musica').play()">🎵 Ligar Música</button>
+        <h1>✨ Boa! Achou o Armário!</h1>
+        
+        <div class="dica">
+            🧩 <strong>PISTA 2:</strong><br><br>
+            "Você rodou bastante na estrada e merece relaxar no nosso cantinho preferido. Vá até o lugar onde a gente deita, descansa e maratona juntos!"
+        </div>
+    </div>
+</body>
+</html>

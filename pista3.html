@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pista 3</title>
+    <style>
+        body { font-family: 'Arial', sans-serif; background-color: #121212; color: #fff; text-align: center; padding: 20px; }
+        .card { background: #1e1e1e; border-radius: 15px; padding: 25px; margin-top: 20px; }
+        h1 { color: #2ed573; }
+        .dica { background: #eccc68; color: #000; padding: 15px; border-radius: 10px; font-weight: bold; margin-top: 20px; font-size: 1.1em; }
+        button { background: #2ed573; color: white; border: none; padding: 12px 20px; border-radius: 20px; margin-bottom: 15px; }
+    </style>
+</head>
+<body>
+    <audio id="musica" loop autoplay>
+        <source src="musica.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="card">
+        <button onclick="document.getElementById('musica').play()">🎵 Ligar Música</button>
+        <h1>🛋️ Direto do Sofá!</h1>
+        
+        <div class="dica">
+            🧩 <strong>PISTA 3:</strong><br><br>
+            "Atenção: essa pista teve um 'pequeno atraso no processamento'! Para encontrar a próxima ordem da missão, dê uma olhada ali perto da impressora ou do computador para ver se o papel finalmente saiu..."
+        </div>
+    </div>
+</body>
+</html>
