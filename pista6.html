@@ -9,8 +9,9 @@
         .card { background: #ffffff; border-radius: 20px; padding: 30px; margin: 20px auto; max-width: 500px; box-shadow: 0 10px 25px rgba(255, 182, 193, 0.4); border: 2px solid #ff758f; }
         h1 { color: #ff4d6d; font-size: 1.8em; }
         .pegadinha { background: #fff0f3; color: #c9184a; padding: 15px; border-radius: 12px; font-size: 1.1em; margin-bottom: 20px; font-weight: bold; border: 1px solid #ffccd5; }
-        .final { background: #ff4d6d; color: #ffffff; padding: 20px; border-radius: 15px; font-weight: bold; font-size: 1.15em; line-height: 1.5; box-shadow: 0 4px 10px rgba(255, 77, 109, 0.3); }
-        .btn-play { background: #ff758f; color: white; border: none; padding: 10px 20px; border-radius: 20px; margin-bottom: 15px; font-weight: bold; cursor: pointer; }
+        .final { background: #ff4d6d; color: #ffffff; padding: 20px; border-radius: 15px; font-weight: bold; font-size: 1.15em; line-height: 1.5; box-shadow: 0 4px 10px rgba(255, 77, 109, 0.3); margin-top: 15px; }
+        .btn-play { background: #ff758f; color: white; border: none; padding: 12px 24px; border-radius: 20px; font-weight: bold; cursor: pointer; margin-bottom: 15px; font-size: 1em; }
+        .midia { width: 100%; border-radius: 15px; margin: 15px 0; border: 2px solid #ffccd5; }
     </style>
 </head>
 <body>
@@ -19,16 +20,20 @@
     </audio>
 
     <div class="card">
-        <button class="btn-play" onclick="document.getElementById('musica').play()">🎵 Ligar Música</button>
+        <button class="btn-play" onclick="document.getElementById('musica').play()">🎵 Tocar Nossa Música</button>
         
         <div class="pegadinha">
-            😜 Ops... Achou que estava fácil assim dentro do guarda-roupa? Ainda não!
+            😜 Ops... Achar que estava fácil assim dentro do guarda-roupa? Ainda não!
         </div>
-        
+
         <h1>🎁 SEU VERDADEIRO TESOURO!</h1>
         
+        <!-- BUMERANGUE -->
+        <img src="bumerangue.gif" alt="Nosso momento" class="midia">
+        
         <div class="final">
-            "O meu maior presente é ter você de volta, mas preparei uma surpresa especial de reencontro. Olhe bem no alto do guarda-roupa e pegue o seu tesouro!" ✨❤️
+            "O meu maior presente é ter você de volta, mas preparei uma surpresa especial de reencontro.<br><br>
+            ✨ <strong>Olhe bem no alto do guarda-roupa e pegue o seu tesouro!</strong> ✨"
         </div>
     </div>
 </body>
